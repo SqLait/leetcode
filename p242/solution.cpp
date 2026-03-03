@@ -1,4 +1,3 @@
-#include <iostream>
 #include <string>
 #include <unordered_map>
 class Solution {
@@ -25,8 +24,3 @@ public:
         return true;
     }
 };
-
-int main() {
-    Solution s;
-    s.isAnagram("anagram", "nagaram");
-}
